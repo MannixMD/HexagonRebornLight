@@ -7,6 +7,7 @@ html, body {
 	color: #161411;
 	background-color: #e8e8e8;
 	background: url(./images/bg.jpg);
+	background-attachment: fixed;						  
 }
 
 h1 {
