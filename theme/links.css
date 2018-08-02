@@ -57,7 +57,7 @@ a {
 
 /* Links for forum/topic lists */
 a.forumtitle {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1.5em;
 	font-weight: bold;
 	text-decoration: none;
@@ -68,7 +68,7 @@ a.forumtitle:hover {
 }
 
 a.topictitle {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1.5em;
 	font-weight: bold;
 	text-decoration: none;

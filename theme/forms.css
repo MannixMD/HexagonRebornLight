@@ -5,7 +5,7 @@
 ----------------------------------------*/
 fieldset {
 	border-width: 0;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1.1em;
 }
 
@@ -14,11 +14,11 @@ input {
 	vertical-align: middle;
 	padding: 0 3px;
 	font-size: 1em;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 }
 
 select {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-weight: normal;
 	cursor: pointer;
 	vertical-align: middle;
@@ -37,11 +37,11 @@ option {
 
 select optgroup option {
 	padding-right: 1em;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 }
 
 textarea {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	width: 60%;
 	padding: 2px;
 	font-size: 1em;
@@ -261,7 +261,7 @@ fieldset.submit-buttons input {
 }
 
 .message-box textarea {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	width: 450px;
 	height: 270px;
 	min-width: 100%;
@@ -342,7 +342,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	width: auto !important;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	background: transparent none repeat-x top left;
 	line-height: 1.5;
 }
