@@ -27,7 +27,7 @@ h1 {
 h2 {
 	/* Forum header titles */
 	font-family: Roboto, Arial;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 2em;
 	margin: 0.8em 0 0.2em 0;
 }
@@ -58,6 +58,7 @@ p {
 	font-size: 1.1em;
 	margin-bottom: 1.5em;
 	padding-top: 5px;
+	font-weight: bold;				   
 }
 
 img {
@@ -524,6 +525,7 @@ a.header-avatar span:after {
 	padding: 5px 10px;
 	text-decoration: none;
 	width: 100%;
+	font-weight: bold;				   
 }
 
 .jumpbox .spacer {
@@ -644,7 +646,7 @@ table.table1 {
 }
 
 table.table1 thead th {
-	font-weight: normal;
+	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 1.3em;
 	font-size: 1em;
@@ -700,7 +702,7 @@ table.info tbody th {
 	padding: 3px;
 	text-align: right;
 	vertical-align: top;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .forumbg table.table1 {
@@ -832,6 +834,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	text-align: right;
 	width: auto;
 	margin: 5px 0;
+	font-weight: bold;				   
 }
 
 .action-bar.bar-bottom .pagination {
@@ -866,7 +869,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 .pagination li.active span {
 	display: inline-block;
 	font-size: 13px;
-	font-weight: normal;
+	font-weight: bold;
 	font-family: Roboto, Arial;
 	line-height: 1.4;
 	text-align: center;

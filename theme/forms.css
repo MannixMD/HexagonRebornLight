@@ -10,7 +10,7 @@ fieldset {
 }
 
 input {
-	font-weight: normal;
+	font-weight: bold;
 	vertical-align: middle;
 	padding: 0 3px;
 	font-size: 1em;
@@ -19,7 +19,7 @@ input {
 
 select {
 	font-family: Roboto, Arial;
-	font-weight: normal;
+	font-weight: bold;
 	cursor: pointer;
 	vertical-align: middle;
 	border: 1px solid transparent;
@@ -383,7 +383,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 }
 
 input.disabled {
-	font-weight: normal;
+	font-weight: bold;
 }
 
 /* Focus states */

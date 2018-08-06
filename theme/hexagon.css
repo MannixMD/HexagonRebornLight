@@ -467,12 +467,14 @@ ul.topiclist.missing-column {
     font-family: FontAwesome;
     padding-right: 2px;
     font-size: 20px;
+    font-weight: normal;						 
 }
 .check:before {
     content: "\f046";
     font-family: FontAwesome;
     padding-right: 2px;
     font-size: 14px;
+    font-weight: normal;						 
 }
 .settings:before {
     content: "\f1de";
@@ -732,7 +734,7 @@ a.nav-avatar img {
 .custombbcode:before {
 	display: none;
 }
-.custombbcode:hover {
+.custombbcode:hover, .custombbcode:active, .custombbcode:focus  {
     background-color: #de7300;
     color: #161411 !important;
     text-shadow: none;

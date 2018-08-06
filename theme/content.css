@@ -70,6 +70,7 @@ ul.topiclist dd {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font-weight: bold;				   
 }
 
 ul.topiclist dfn {
@@ -102,7 +103,7 @@ li.header dt, li.header dd {
 	font-size: 1.2em;
 	font-family: Roboto, Arial;
 	text-transform: uppercase;
-	font-weight: bold;				   
+		   
 }
 
 li.header dt {
@@ -177,7 +178,7 @@ dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
 	text-align: center;
 	line-height: 2.2em;
 	font-size: 1.2em;
-	font-weight: bold;				   
+			   
 }
 
 dd.posts, dd.topics, dd.views {
@@ -335,7 +336,7 @@ dd.option {
 }
 
 .content h2, .panel h2 {
-	font-weight: normal;
+	font-weight: bold;
 	border-bottom: 1px solid transparent;
 	font-size: 1.6em;
 	margin-top: 0.5em;
@@ -366,6 +367,7 @@ dl.faq {
 	margin-top: 1em;
 	margin-bottom: 2em;
 	line-height: 1.4em;
+	font-weight: bold;				   
 }
 
 dl.faq dt {
@@ -563,14 +565,14 @@ blockquote .codebox {
 
 .attachbox p {
 	line-height: 110%;
-	font-weight: normal;
+	font-weight: bold;
 	clear: left;
 }
 
 .attachbox p.stats
 {
 	line-height: 110%;
-	font-weight: normal;
+	font-weight: bold;
 	clear: left;
 }
 
@@ -707,6 +709,7 @@ fieldset.polls dd div {
 	width: 14%;
 	float: right;
 	display: inline;
+	font-weight: bold;				   
 }
 
 .postprofile dd, .postprofile dt {
@@ -746,7 +749,7 @@ fieldset.polls dd div {
 }
 
 .postprofile .profile-posts a {
-	font-weight: normal;
+	font-weight: bold;
 }
 
 dd.profile-warnings {

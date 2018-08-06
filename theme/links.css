@@ -129,7 +129,7 @@ a.lastsubject:hover {
 /* Profile searchresults */
 .search .postprofile a {
 	text-decoration: none;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .search .postprofile a:hover {
