@@ -58,7 +58,7 @@ p {
 	font-size: 1.1em;
 	margin-bottom: 1.5em;
 	padding-top: 5px;
-	font-weight: bold;				   
+	font-weight: bold;
 }
 
 img {
@@ -264,7 +264,7 @@ ul.linklist > li {
 	list-style-type: none;
 	margin-right: 7px;
 	width: auto;
-    font-weight: bold;					   
+	font-weight: bold;
 }
 
 ul.linklist > li.rightside, p.rightside, a.rightside {
@@ -274,10 +274,6 @@ ul.linklist > li.rightside, p.rightside, a.rightside {
     text-align: right;
 }
 
-ul.navlinks {
-	border-top: 1px solid #de7300;
-	
-}
 
 ul.leftside {
 	float: left;
@@ -525,7 +521,7 @@ a.header-avatar span:after {
 	padding: 5px 10px;
 	text-decoration: none;
 	width: 100%;
-	font-weight: bold;				   
+	font-weight: bold;
 }
 
 .jumpbox .spacer {
@@ -834,7 +830,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 	text-align: right;
 	width: auto;
 	margin: 5px 0;
-	font-weight: bold;				   
+	font-weight: bold;
 }
 
 .action-bar.bar-bottom .pagination {
@@ -1000,8 +996,15 @@ fieldset.fields1 dl.pmlist dd.recipients {
 /* Miscellaneous styles
 ---------------------------------------- */
 .copyright {
-	padding: 20px;
+	font-size: 10px;
 	text-align: center;
+	padding: 10px;
+}
+
+.footer-row {
+	font-size: 10px;
+	line-height: 1.8;
+	margin: 0;	
 }
 
 .small {
@@ -1014,8 +1017,6 @@ fieldset.fields1 dl.pmlist dd.recipients {
 
 .headerspace {
 	padding: 5px 10px;
-	background-color: #e8e8e8;
-    box-shadow: 0 0 4px #ffffff;
     margin: 10px 0;
 }
 

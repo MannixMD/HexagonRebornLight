@@ -20,7 +20,6 @@
   	text-rendering: auto; /* optimizelegibility throws things off #1094 */
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-	 color: #de7300;
 }
 
 .icon:before { padding-right: 2px; }

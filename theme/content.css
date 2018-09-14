@@ -70,7 +70,7 @@ ul.topiclist dd {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	font-weight: bold;				   
+	font-weight: bold;
 }
 
 ul.topiclist dfn {
@@ -103,7 +103,6 @@ li.header dt, li.header dd {
 	font-size: 1.2em;
 	font-family: Roboto, Arial;
 	text-transform: uppercase;
-		   
 }
 
 li.header dt {
@@ -139,13 +138,12 @@ dl.row-item {
 	background-position: 10px 50%;		/* Position of folder icon */
 	background-repeat: no-repeat;
 	background-size: 32px;
-	box-shadow: 0 0 4px #ffffff;
 	image-rendering: -webkit-optimize-contrast;
 }
 
 dl.row-item dt {
 	background-repeat: no-repeat;
-	background-position: 5px 95%;		/* Position of topic icon */
+	background-position: 5px 65%;		/* Position of topic icon */
 	background-size: 17px;
 }
 
@@ -178,7 +176,6 @@ dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
 	text-align: center;
 	line-height: 2.2em;
 	font-size: 1.2em;
-			   
 }
 
 dd.posts, dd.topics, dd.views {
@@ -367,7 +364,7 @@ dl.faq {
 	margin-top: 1em;
 	margin-bottom: 2em;
 	line-height: 1.4em;
-	font-weight: bold;				   
+	font-weight: bold;
 }
 
 dl.faq dt {
@@ -709,7 +706,7 @@ fieldset.polls dd div {
 	width: 14%;
 	float: right;
 	display: inline;
-	font-weight: bold;				   
+	font-weight: bold;
 }
 
 .postprofile dd, .postprofile dt {
