@@ -594,6 +594,9 @@ a.nav-avatar img {
 	ul#nav-main li {
     display: none;
 }
+.notification_list li {
+    display: block !important;
+}
 }
 .badge {
     position: relative;
