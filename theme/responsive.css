@@ -12,6 +12,7 @@
 @media (max-width: 350px) {
 	.dropdown-extended .dropdown-contents {
 		width: auto;
+		min-width: 185px;
 	}
 }
 

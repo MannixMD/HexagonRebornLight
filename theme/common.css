@@ -884,7 +884,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 }
 
 .pagination li.page-jump a {
-	padding: 1px 3px;
+	padding: 1px 0;
 }
 
 .pagination li.page-jump a i {

@@ -557,8 +557,8 @@ a.nav-avatar img {
 	display: inline-block !important;
     margin-left: 0 !important;
 	position: absolute;
-    top: 17px;
-    right: 75px;
+    top: 16px;
+    right: 10px;
 	}
 	.ucp-main .profile-contact {
     display: none !important;
@@ -575,7 +575,9 @@ a.nav-avatar img {
 .profile-contact .button {
     margin-left: 0;
 }
-
+.has-profile .post-buttons {
+    right: 50px;
+}
 }
 .custombbcode {
     margin: 1px !important;
@@ -898,4 +900,9 @@ a.nav-avatar img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+}
+@media (max-width: 700px) {
+	.pagination > ul > li {
+	margin: 9px 0;
+}
 }
