@@ -161,8 +161,6 @@ ul.cplist {
 
 .minitabs .tab > a:hover {
 	text-decoration: none;
-	background-color: #de7300;
-    color: #161411;
 }
 
 /* Responsive tabs
@@ -195,7 +193,7 @@ ul.cplist {
 	top: 20px;
 	margin-right: -2px;
 	font-size: 1.1em;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .minitabs .dropdown {
@@ -220,7 +218,6 @@ ul.cplist {
 /* Container for sub-navigation list */
 .navigation {
 	width: 100%;
-	    box-shadow: 0 0 4px #ffffff;
 }
 
 .navigation ul {

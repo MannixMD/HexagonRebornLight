@@ -70,6 +70,7 @@ ul.topiclist dd {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font-weight: bold;
 }
 
 ul.topiclist dfn {
@@ -90,7 +91,7 @@ li.row {
 }
 
 li.row strong {
-	font-weight: normal;
+	font-weight: bold;
 }
 
 li.header dt, li.header dd {
@@ -100,7 +101,7 @@ li.header dt, li.header dd {
 	padding-top: 2px;
 	padding-bottom: 2px;
 	font-size: 1.2em;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	text-transform: uppercase;
 }
 
@@ -137,13 +138,12 @@ dl.row-item {
 	background-position: 10px 50%;		/* Position of folder icon */
 	background-repeat: no-repeat;
 	background-size: 32px;
-	box-shadow: 0 0 4px #ffffff;
 	image-rendering: -webkit-optimize-contrast;
 }
 
 dl.row-item dt {
 	background-repeat: no-repeat;
-	background-position: 5px 95%;		/* Position of topic icon */
+	background-position: 5px 65%;		/* Position of topic icon */
 	background-size: 17px;
 }
 
@@ -251,7 +251,7 @@ dd.option {
 	margin-bottom: 0.3em !important;
 	text-transform: none;
 	border: none;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	line-height: 125%;
 }
 
@@ -327,13 +327,13 @@ dd.option {
 	min-height: 3em;
 	overflow: hidden;
 	line-height: 1.4em;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1em;
 	padding-bottom: 1px;
 }
 
 .content h2, .panel h2 {
-	font-weight: normal;
+	font-weight: bold;
 	border-bottom: 1px solid transparent;
 	font-size: 1.6em;
 	margin-top: 0.5em;
@@ -352,18 +352,19 @@ dd.option {
 }
 
 .content p {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1.2em;
 	margin-bottom: 1em;
 	line-height: 1.4em;
 }
 
 dl.faq {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1.1em;
 	margin-top: 1em;
 	margin-bottom: 2em;
 	line-height: 1.4em;
+	font-weight: bold;
 }
 
 dl.faq dt {
@@ -391,7 +392,7 @@ dl.faq dt {
 p.author {
 	margin-bottom: 0.6em;
 	padding: 0 0 5px 0;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1em;
 	line-height: 1.2em;
 	clear: both;
@@ -431,7 +432,7 @@ dd .signature {
 
 /* Post noticies */
 .notice {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	width: auto;
 	margin-top: 1.5em;
 	padding-top: 0.2em;
@@ -543,7 +544,7 @@ blockquote .codebox {
 }
 
 .attachbox dt {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	text-transform: uppercase;
 }
 
@@ -561,14 +562,14 @@ blockquote .codebox {
 
 .attachbox p {
 	line-height: 110%;
-	font-weight: normal;
+	font-weight: bold;
 	clear: left;
 }
 
 .attachbox p.stats
 {
 	line-height: 110%;
-	font-weight: normal;
+	font-weight: bold;
 	clear: left;
 }
 
@@ -594,7 +595,7 @@ div.inline-attachment p {
 }
 
 dl.file {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	display: block;
 }
 
@@ -603,7 +604,7 @@ dl.file dt {
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 }
 
 dl.file dd {
@@ -619,7 +620,7 @@ dl.thumbnail img {
 
 dl.thumbnail dd {
 	font-style: italic;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 }
 
 .attachbox dl.thumbnail dd {
@@ -633,7 +634,7 @@ dl.thumbnail dt a:hover img {
 /* Post poll styles
 ----------------------------------------*/
 fieldset.polls {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 }
 
 fieldset.polls dl {
@@ -677,7 +678,7 @@ fieldset.polls dd input {
 
 fieldset.polls dd div {
 	text-align: right;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-weight: bold;
 	padding: 2px 2px 0 2px;
 	overflow: visible;
@@ -705,6 +706,7 @@ fieldset.polls dd div {
 	width: 14%;
 	float: right;
 	display: inline;
+	font-weight: bold;
 }
 
 .postprofile dd, .postprofile dt {
@@ -718,7 +720,7 @@ fieldset.polls dd div {
 }
 
 .postprofile strong {
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .postprofile dt.no-profile-rank, .postprofile dd.profile-rank, .postprofile .search-result-date {
@@ -744,7 +746,7 @@ fieldset.polls dd div {
 }
 
 .postprofile .profile-posts a {
-	font-weight: normal;
+	font-weight: bold;
 }
 
 dd.profile-warnings {

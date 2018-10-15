@@ -5,21 +5,21 @@
 ----------------------------------------*/
 fieldset {
 	border-width: 0;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	font-size: 1.1em;
 }
 
 input {
-	font-weight: normal;
+	font-weight: bold;
 	vertical-align: middle;
 	padding: 0 3px;
 	font-size: 1em;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 }
 
 select {
-	font-family: Roboto-bold, Arial;
-	font-weight: normal;
+	font-family: Roboto, Arial;
+	font-weight: bold;
 	cursor: pointer;
 	vertical-align: middle;
 	border: 1px solid transparent;
@@ -37,11 +37,11 @@ option {
 
 select optgroup option {
 	padding-right: 1em;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 }
 
 textarea {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	width: 60%;
 	padding: 2px;
 	font-size: 1em;
@@ -122,10 +122,7 @@ dd label {
 }
 
 dd input, dd textarea {
-	margin-right: 3px;
-	background-color: #d9d9d9;
-    border: 1px solid #de7300;
-    color: #161411;					   		   
+	margin-right: 3px;				   		   
 }
 
 dd select {
@@ -261,7 +258,7 @@ fieldset.submit-buttons input {
 }
 
 .message-box textarea {
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	width: 450px;
 	height: 270px;
 	min-width: 100%;
@@ -281,9 +278,7 @@ fieldset.submit-buttons input {
 .smiley-box {
     width: 18%;
     float: right;
-    background-color: #ffffff;
     padding: 5px;
-    box-shadow: 0 0 4px #ffffff;
 }
 
 .smiley-box img {
@@ -342,7 +337,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	width: auto !important;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	font-family: Roboto-bold, Arial;
+	font-family: Roboto, Arial;
 	background: transparent none repeat-x top left;
 	line-height: 1.5;
 }
@@ -378,12 +373,9 @@ a.button1, a.button2 {
 }
 
 /* Hover states */
-a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border: 1px solid #161411;
-}
 
 input.disabled {
-	font-weight: normal;
+	font-weight: bold;
 }
 
 /* Focus states */
