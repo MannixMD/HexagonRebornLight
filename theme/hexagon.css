@@ -354,7 +354,7 @@ dl.panel {
 }
 
 
-.colorbutton { width: 14px; height: 14px; float: left; margin: 4px; border-radius: 3px; padding: 5px; }
+.colorbutton { float: left; margin: 4px 8px 4px 0; border-radius: 50%; padding: 7px; }
 .colororange { background-color: #de7300; }
 .colorgreen { background-color: #00a651; }
 .colorblue { background-color: #00aeef; }
@@ -362,32 +362,6 @@ dl.panel {
 .colorviolet { background-color: #662d91; }
 
 
-.fa-paint-brush:before {
-    content: "\f1fc";
-}
-#slideout {
-	position: absolute;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    padding: 8.5px;
-    z-index: 4;
-}
-#slideout_inner {
-	position: absolute;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    display: none;
-}
-
-#slideout:hover #slideout_inner {
-	left: 35px;
-    top: 0;
-    display: flex;
-}
 .overlay {
     height: 100%;
     width: 0;
@@ -557,8 +531,8 @@ a.nav-avatar img {
 	display: inline-block !important;
     margin-left: 0 !important;
 	position: absolute;
-    top: 17px;
-    right: 75px;
+    top: 16px;
+    right: 10px;
 	}
 	.ucp-main .profile-contact {
     display: none !important;
@@ -575,7 +549,9 @@ a.nav-avatar img {
 .profile-contact .button {
     margin-left: 0;
 }
-
+.has-profile .post-buttons {
+    right: 50px;
+}
 }
 .custombbcode {
     margin: 1px !important;
@@ -898,4 +874,9 @@ a.nav-avatar img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+}
+@media (max-width: 700px) {
+	.pagination > ul > li {
+	margin: 9px 0;
+}
 }

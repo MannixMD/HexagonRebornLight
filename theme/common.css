@@ -884,7 +884,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 }
 
 .pagination li.page-jump a {
-	padding: 1px 3px;
+	padding: 1px 0;
 }
 
 .pagination li.page-jump a i {
@@ -1287,6 +1287,10 @@ ul.linklist:after,
 
 .dropdown-page-jump input.tiny {
 	width: 50px;
+}
+
+.dropdown .clone.hidden  {
+	display: none;
 }
 
 .dropdown .clone.hidden + li.separator {
