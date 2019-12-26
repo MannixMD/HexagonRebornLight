@@ -53,6 +53,7 @@
 	vertical-align: text-bottom;
 	font-size: 16px;
 }
+
 .arrow-left .icon {
 	float: left;
 }
@@ -92,3 +93,4 @@ blockquote cite:before, .uncited:before {
 .rtl blockquote cite:before, .rtl .uncited:before {
 	content: '\f10e'; /* Font Awesome quote-right */
 }
+

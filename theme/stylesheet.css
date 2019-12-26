@@ -1,6 +1,6 @@
 /*  phpBB3 Style Sheet
     --------------------------------------------------------------
-	Style name:			HexagonRebornLight
+	Style name:			HexagonReborn
 	Based on style:		prosilver
 	Original author:	MannixMD @MannixMD
 	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
@@ -19,4 +19,4 @@
 @import url("icons.css?v=3.2");
 @import url("colours.css?v=3.2");
 @import url("responsive.css?v=3.2");
-@import url("hexagon.css");
+@import url("hexagon.css?v=3.2");

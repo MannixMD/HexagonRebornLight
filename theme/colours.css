@@ -1465,7 +1465,7 @@ a.button.button-icon-only.hexagonbutton {
     color: #ffffff;
 }
 .colorbutton:hover {
-    box-shadow: 0 0 4px #fff;
+    box-shadow: 0 0 4px 5px #fff;
 }
 @media (max-width: 700px){
 .responsivebutton:before {
